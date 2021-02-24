@@ -68,7 +68,7 @@ class MyClient(discord.Client):
           colour=discord.Colour(0xf1fb21)
         )
 
-        s_embed.set_author(name="**" + author + "**")
+        s_embed.set_author(name=author)
         s_embed.set_footer(text="Suggest Bot made by xilef601.")
 
         s_embed.add_field(name="**IDEA**", value=idea)
